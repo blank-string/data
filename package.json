@@ -6,7 +6,7 @@
   "main": "index.json",
   "scripts": {
     "dist": "node index.js",
-    "deploy": "npm run dist; git commit -am 'new dist'; npm version major; git push --tags; git push --all"
+    "deploy": "npm run dist; git commit -am 'new dist'; npm version major; git push --tags; git push"
   },
   "repository": {
     "type": "git",
