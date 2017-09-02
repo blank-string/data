@@ -1,18 +1,16 @@
 {
   "name": "data",
+  "private": true,
   "version": "1.0.0",
   "description": "This is where all the data for the episodes lives",
-  "main": "index.js",
+  "main": "index.json",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/blank-string/data.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/blank-string/data/issues"
   },
