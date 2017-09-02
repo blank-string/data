@@ -4,7 +4,11 @@ This is where all the data for the episodes lives
 
 ## Build
 
-in order to generate `index.json` simply run `npm start`
+in order to generate `index.json` simply run `npm run build`
+
+## Create
+
+run `npm run new` to create a new episode, it will start a command prompt to guide you
 
 ## Usage
 
