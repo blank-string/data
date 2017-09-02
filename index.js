@@ -1,6 +1,5 @@
 const fs = require('fs')
 const path = require('path')
-const fs = require('fs')
 
 data = fs.readdirSync(__dirname)
     .filter(file => file.match(/^e\d+\.json$/g) !== null)
