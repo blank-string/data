@@ -1,11 +1,12 @@
 {
   "name": "data",
   "private": true,
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "This is where all the data for the episodes lives",
   "main": "index.json",
   "scripts": {
-    "start": "node index.js"
+    "dist": "node index.js",
+    "deploy": "npm run dist; git commit -am 'new dist'; npm version major; git push --tags; git push --all"
   },
   "repository": {
     "type": "git",
