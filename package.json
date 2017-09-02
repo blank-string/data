@@ -1,0 +1,20 @@
+{
+  "name": "data",
+  "version": "1.0.0",
+  "description": "This is where all the data for the episodes lives",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blank-string/data.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blank-string/data/issues"
+  },
+  "homepage": "https://github.com/blank-string/data#readme"
+}
