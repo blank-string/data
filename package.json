@@ -1,7 +1,7 @@
 {
   "name": "data",
   "private": true,
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "This is where all the data for the episodes lives",
   "main": "index.json",
   "scripts": {
