@@ -47,7 +47,11 @@ const create = (result) => {
         duration = Math.ceil(duration)
         episode.mp3Length = duration
         episode.duration = timeFormat(duration)
-        console.log(episode)
+        fs.writeFileSync(
+            path.resolve(__dirname, `${episode.name}.json`),
+            JSON.stringify(episode, null, 4)
+        )
+        console.log('created', episode.name)
     })
 }
 
@@ -63,6 +67,10 @@ const getMp3 = (previous, failedLocation) => {
     }
     prompt.start()
     prompt.get([getMp3Schema], (err, result) => {
+        if (err) {
+            console.error(err)
+            process.exit(1)
+        }
         if (!fs.existsSync(result.mp3Location)) getMp3(result.mp3Location)
         else create(Object.assign({}, previous, result))
     })
@@ -93,7 +101,11 @@ const schema = {
 
 prompt.start()
 prompt.get(schema, (err, result) => {
-    if (typeof result.name === 'undefined') result.name = next()
+    if (err) {
+        console.error(err)
+        process.exit(1)
+    }
+    if (result.name === '') result.name = next()
     if (!fs.existsSync(result.mp3Location)) getMp3(result, result.mp3Location)
     else create(result)
 })
