@@ -3,6 +3,10 @@
   "version": "0.6.2",
   "description": "This is where all the data for the episodes lives",
   "main": "index.json",
+  "author": "Blank String <blankstringpodcast@gmail.com>",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "node index.js",
     "new": "node new.js",
