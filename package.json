@@ -1,6 +1,6 @@
 {
   "name": "@blank-string/data",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "description": "This is where all the data for the episodes lives",
   "main": "index.json",
   "author": "Blank String <blankstringpodcast@gmail.com>",
