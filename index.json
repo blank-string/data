@@ -1,11 +1,21 @@
 [
     {
+        "name": "e009",
+        "title": "EP9 - Another apocolypse",
+        "subtitle": "Will somebody please think of the children!",
+        "description": "Luke, Matt and Tim are faced with yet another difficult challenge. Imagine it is the end of the world, what would be the last thing you buy? What will they choose? Will they understand the situation? My bet is, they won't.",
+        "time": 1506624873874,
+        "guid": "d215791005ebf68860ae61bb833d9044",
+        "mp3Length": 3530,
+        "duration": "00:58:50"
+    },
+    {
         "name": "e008",
         "title": "EP8 - Changing your clock is not time travel",
         "subtitle": "Maybe we shouldn't do the time warp",
         "description": "Posed with several kinds of time travel what would you do? Want to become rich? Yes! Want to stop WWII? You bet! Want to mess with people and see what happens when you start time again? What? Tune in and listen to Tim, Matt and Luke as they misuse time travel for benign reasons.",
         "time": 1506062026338,
-        "guid": "2d9f9547a1ff2729f7515234aa074db4",
+        "guid": "404391387f23430f835a5b4a082acb0c",
         "mp3Length": 3145,
         "duration": "00:52:25"
     },
@@ -15,7 +25,7 @@
         "subtitle": "How to design a Disney",
         "description": "How hard can it be to make a Disney? As it turns out not very. How hard is it to make a good one with an engaging story, lovable characters and emotive dialog? Listen in and found out how close we get.",
         "time": 1506061869860,
-        "guid": "4583026145ce6b106278dc017944699d",
+        "guid": "5fdcc1cf8c1c4a828d4ac546d1d2d4d8",
         "mp3Length": 3796,
         "duration": "01:03:16"
     },
